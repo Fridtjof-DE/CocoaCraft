@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "cocoacraft",
+  "version": "${version}",
+  "name": "Cocoacraft",
+  "description": "Gives cocoa a delicious use.",
+  "authors": ["Fridtjof_DE"],
+  "contact": {
+    "homepage": "https://www.fridtjof.me/",
+    "issues": "https://github.com/Fridtjof-DE/CocoaCraft/issues",
+    "sources": "https://github.com/Fridtjof-DE/CocoaCraft"
+  },
+  "license": "MIT",
+  "icon": "assets/cocoacraft/textures/item/chocolate_drink.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.fridtjof.cocoacraft.client.CocoacraftClient"
+    ],
+    "main": [
+      "me.fridtjof.cocoacraft.Cocoacraft"
+    ]
+  },
+  "mixins": [
+    "cocoacraft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}

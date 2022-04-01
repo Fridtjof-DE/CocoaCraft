@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "cocoacraft:chocolate_drink"
+    },
+    "result": "cocoacraft:hot_chocolate_drink",
+    "experience": 0.1,
+    "cookingtime": 100
+}
